@@ -1,0 +1,60 @@
+:root{
+    --fontitle: "Boogaloo", sans-serif;
+    --font:"Jersey 25", sans-serif;
+    --blue: #00BFFF;
+    --red:#FF0000;
+    --yellow:#FFFF00;
+    --grey:#D3D3D3;
+    --white:#ffffff;
+    --black: #000000;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = a 10 px*/
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*utility*/
+
+body{
+    background-image: url(/img/bck1.jpg);
+    background-position: center upper;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1,h2,h3{
+    font-size: 4rem;
+    font-family: var(--fontitle);
+    text-transform: uppercase;
+    font-weight: 700;
+    color:var(--white);
+}
+
+/*head*/
+.head__container{
+    width: 100%;
+    background-color: #00BFFF;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__container{
+    
+}
+
