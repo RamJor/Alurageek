@@ -1,0 +1,22 @@
+{
+    "product":[
+        {
+            "id": 1,
+            "name": "Star wars1",
+            "price": "30",
+            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+          },
+          {
+            "id": 2,
+            "name": "Star wars1",
+            "price": "30",
+            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+          },
+          {
+            "id": 2,
+            "name": "Star wars1",
+            "price": "30",
+            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+          }
+    ]
+}
