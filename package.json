@@ -1,0 +1,13 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "<h1>AluraGeek</h1>\r <p>En este proyecto tiene la finalidad de aplicar conceptos de Javascript como programación asíncrona, solicitudes HTTP, validación de formularios, manipualción del DOM y otro conceptos avanzados.</p>",
+  "main": "main.js",
+  "scripts": {
+    "start": "json-server --watch ./database/db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
