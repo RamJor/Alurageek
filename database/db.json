@@ -1,22 +1,52 @@
 {
-    "product":[
-        {
-            "id": 1,
-            "name": "Star wars1",
-            "price": "30",
-            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-          },
-          {
-            "id": 2,
-            "name": "Star wars1",
-            "price": "30",
-            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-          },
-          {
-            "id": 2,
-            "name": "Star wars1",
-            "price": "30",
-            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-          }
-    ]
+  "product": [
+    {
+      "id": "1",
+      "name": "Star wars1",
+      "price": "30",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Star_Wars_001_1977.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Star wars1",
+      "price": "30",
+      "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/f6/80/f68032f1fe9b9b8c79a051795e4ade89.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Star wars1",
+      "price": "30",
+      "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/0f/59/0f597a73996896126f4da6af64296669.jpg"
+    },
+    {
+      "id": "5f52",
+      "name": "JORGE",
+      "price": "500000000000",
+      "image": "https://m.media-amazon.com/images/I/8125YqX-awL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "731c",
+      "name": "kl",
+      "price": "12",
+      "image": "https://m.media-amazon.com/images/I/8125YqX-awL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "88c0",
+      "name": "kl",
+      "price": "23",
+      "image": "https://m.media-amazon.com/images/I/8125YqX-awL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "bcdc",
+      "name": "JORGE",
+      "price": "23",
+      "image": "https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_80,w_820/v1579729634/content-items/003/643/751/03.mejores-autores-comic-original.jpg?1579729634"
+    },
+    {
+      "id": "6c2f",
+      "name": "JORGE",
+      "price": "23",
+      "image": "https://m.media-amazon.com/images/I/8125YqX-awL._AC_UF1000,1000_QL80_.jpg"
+    }
+  ]
 }

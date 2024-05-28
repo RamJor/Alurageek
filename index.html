@@ -1,124 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Jersey+25&display=swap" rel="stylesheet">
-    <title>Alurageek</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Jersey+25&display=swap" rel="stylesheet" />
+  <title>Alurageek</title>
 </head>
+
 <body>
-    <header class="head__container">
-      <div class="title__container">
-        <h1 class="title__aspect"><a href="">Alurageek</a></h1>
-      </div>
-    </header>
-    <main class="main_container">
+  <header class="head__container">
+    <div class="title__container">
+      <h1 class="title__aspect"><a href="">Alurageek</a></h1>
+    </div>
+  </header>
+  <main class="main_container">
+    <section class="items__container">
+      <h1>Mis productos:</h1>
 
-      <section data-product class="items__container" >
-        <h1>Mis productos:</h1>
+      <div data-product class="product__container"></div>
+    </section>
 
-      <div class="product__container">
-        <div class="card__container">
-
-          <div class="picture_container">
-            <img  class="picture__style" src="/img/comic1.jpg" alt="imagen de objeto geek">
-          </div> 
-
-          <div class="info_container">
-            <p class="title_info">Star Wars #1</p>
-
-            <div class="info_contenido_container">
-              <p>$ 30 pejecoins</p>
-              <button class="delete_button" data-id="${id}"><img src="/img/delete.png" alt="delete button"></button>
-            </div>
-
-          </div >
-           
+    <section class="form_container">
+      <h1 class="form_title">
+        Agregar <br />
+        productos:
+      </h1>
+      <form data-form class="productadd_container">
+        <fieldset>
+        <input name="nombre" data-name type="text" placeholder="Nombre" id="nombre" required />
+        <span class="mensaje-error"></span>
+      </fieldset>
+      <fieldset>
+        <input name="precio" data-price type="text" placeholder="Precio..." id="precio" required />
+        <span class="mensaje-error"></span>
+      </fieldset>
+      <fieldset>
+        <input name="img" data-image type="text" placeholder="Imagen..." id="img" required />
+        <span class="mensaje-error"></span>
+      </fieldset>
+        <div class="form_button">
+          <button type="submit" class="button_send">Enviar</button>
+          <button type="reset" class="button_clear">Limpiar</button>
         </div>
-      
+      </form>
+    </section>
+  </main>
 
+  <footer class="footer_container">
+    <div class="footer_info">
+      <h1>Alurageek</h1>
+      <p>Desarrollado por Jorge Ramírez</p>
+      <p>Alura Latam- 2024</p>
+    </div>
+  </footer>
 
-        <div class="card__container">
-
-          <div class="picture_container">
-            <img class="picture__style" src="/img/comic2.jpg" alt="imagen de objeto geek">
-          </div> 
-
-          <div class="info_container">
-            <p class="title_info">Star Wars #1: Marvel Comics. 2/77</p>
-
-            <div class="info_contenido_container">
-              <p>$ 30 pejecoins</p>
-              <button class="delete_button"><img src="/img/delete.png" alt="delete button"></button>
-            </div>
-
-          </div >
-        
-        </div>
-
-        <div class="card__container">
-
-          <div class="picture_container">
-            <img class="picture__style" src="/img/comic3.jpg" alt="imagen de objeto geek">
-          </div> 
-
-          <div class="info_container">
-            <p class="title_info">Star Wars #1: Marvel Comics. 2/77</p>
-
-            <div class="info_contenido_container">
-              <p>$ 30 pejecoins</p>
-              <button class="delete_button"><img src="/img/delete.png" alt="delete button"></button>
-            </div>
-
-          </div >
-        </div>
-
-        <div class="card__container">
-
-          <div class="picture_container">
-            <img class="picture__style" src="/img/comic3.jpg" alt="imagen de objeto geek">
-          </div> 
-
-          <div class="info_container">
-            <p class="title_info">Star Wars #1: Marvel Comics. 2/77</p>
-
-            <div class="info_contenido_container">
-              <p>$ 30 pejecoins</p>
-              <button class="delete_button"><img src="/img/delete.png" alt="delete button"></button>
-            </div>
-
-          </div >
-        </div>
-      </section>
-       
-      <section class="form_container">
-        <h1 class="form_title">Agregar <br> productos:</h1>
-        <form action="" class="productadd_container">
-          <input data-name type="text" placeholder="Nombre" id="name">
-          <input data-price type="text" placeholder="Precio...">
-          <input date-img type="text" placeholder="Imagen...">
-          <div class="form_button">
-            <button type="submit" class="button_send">Enviar</button>
-            <button type="reset" class="button_clear">Limpiar</button>
-          </div>
-        </form>
-      </section>
-    </main>
-
-    <footer class="footer_container">
-      <div class="footer_info">
-        <h1>Alurageek</h1>
-        <p>Desarrollado por Jorge Ramírez</p>
-        <p>Alura Latam- 2024</p>
-      </div>
-
-    </footer>
+  <script type="module" src="js/services/controllers/main.js"></script>
 </body>
+
 </html>

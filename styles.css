@@ -47,6 +47,10 @@ img{
     max-width: 100%;
     
 }
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -78,10 +82,13 @@ img{
     /* display:flex;
     flex-direction: row;
     flex-wrap: wrap; */
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow-y: scroll;
     margin-top: 2rem;
+    row-gap: 2rem;
+    column-gap: 1rem;
 }
 
 .card__container{
@@ -202,6 +209,8 @@ img{
     border-style: none;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 2rem;
+    padding: 1rem 3rem ;
     font-family: var(--fontitle);
     border-radius: 4rem;
     cursor: pointer;
@@ -229,6 +238,11 @@ box-shadow: 1px 2px 27px 9px rgba(255,0,0,1);
 -moz-box-shadow: 1px 2px 27px 9px rgba(0,68,255);
 box-shadow: 1px 2px 27px 9px rgba(0,68,255);
 }
+.mensaje-error{
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
 @media(max-width: 940px) {
     .form_container{
         padding: 5rem 0rem;
